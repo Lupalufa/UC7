@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Edutech</h1>
+        <nav>
+            <ul class="lista">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#agenda">Agendas</a></li>
+                <li><a href="#contato">Contato</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o evento</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nemo veniam ratione? Suscipit, vitae
+                ipsa. Dicta necessitatibus expedita repudiandae perferendis quidem officiis mollitia vitae! Doloremque
+                sapiente voluptatibus laboriosam maiores minima?</p>
+        </section>
+        <section id="palestrantes">
+            <h2>Palestrantes</h2>
+            <ul>
+                <li><strong>Maria Silva</strong> - Engenheira de software e Especialista em IA</li>
+                <li><strong>João Souza</strong> - Desenvolvedor Front-end e Palestrante Internacional</li>
+                <li><strong>Ana Costa</strong> - Pesquisadora em Cibersegurança</li>
+            </ul>
+        </section>
+        
+        <section id="agenda">
+            <table border>
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Atividade</th>
+                        <th>Palestrante</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00</td>
+                        <td>Abertura</td>
+                        <td>Equipe Organizadora</td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td>Tecnologias Emergentes na Educação</td>
+                        <td>Maria Silva</td>
+                    </tr>
+                    <tr>
+                        <td>13:00</td>
+                        <td>Desenvolvimento de SIstemas Web para a Educação</td>
+                        <td>João Souza</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <form action="/" method="post">
+                <div class="nome">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" required placeholder="Digite seu Nome"/>
+                </div>
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" id="email" required placeholder="Digite seu Email"/>
+                </div>
+                <div class="cpf">
+                    <label for="cpf">CPF: </label>
+                    <input type="int" name="cpf" id="cpf" required placeholder="Digite seu CPF"/>
+                </div>
+                <div class="descricao">
+                <label for="mensagem">Digite sua mensagem: </label> <br>   
+                <textarea name="mensagem" name="mensagem"></textarea>
+                <input class="botao" type="submit" value="Enviar Dados">
+                </div>
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>

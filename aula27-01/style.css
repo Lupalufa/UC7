@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #081b29;
+    color: #ededed;
+}
+
+/* header h1{
+    display: flex;
+    justify-content: start;
+} */
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+nav a:hover,
+nav a .activate{
+    color: #00abf0;
+}
+
+
+.edutech {
+    padding-left: 10px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+    gap: 40px;
+    font-size: 20px;
+    /* z-index: 100; */
+    background-color: transparent;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.sobre {
+    margin: 40px 0;
+}
+
+.botao {
+    margin-top: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+
+    background-color: grey;
+    color: white;
+
+    font-weight: bold;
+}
+
+
+#agenda {
+    display: flex;
+    justify-content: center;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+}
+
+#palestrantes {
+    display: flex;
+    justify-content: center;
+    gap: 10px 30px;
+}
+
+#palestrantes ul {
+    list-style: none;
+}
+
+#sobre {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#contato.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 35px;
+    /* padding: 16px 64px; */
+}
