@@ -1,0 +1,26 @@
+/* Estilização Geral */
+
+* {
+    font-family: sans-serif;
+}
+
+/* Começando com o Header */
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding: 20px;
+}
+
+main > .destaque {
+    color: orange;
+}
+
+p {
+    color: grey;
+}
+
