@@ -1,0 +1,148 @@
+:root {
+    --cor-fundo: #333;
+    --cor-texto: #fff;
+    --cor-header: #222;
+    --cor-main: #111;
+    --cor-secao: #222;
+    --cor-borda: #444;
+
+    --fonte-padrao: Arial, sans-serif;
+    --tamanho-h1: 2rem;
+    --tamanho-h2: 1.5rem;
+    --tamanho-p: 1rem;
+
+    --padding-padrao: 1rem;
+    --padding-header: 2rem;
+    --margin-padrao: 1rem;
+
+    --largura-max-main: 75rem; /* 1200px convertido para rem */
+    --largura-imagens: 6.25rem; /* 100px */
+    --altura-imagens: 6.25rem; /* 100px */
+    --border-radius: 0.3125rem; /* 5px */
+    --border-size: 0.0625rem; /* 1px */
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+/* ----------------------------- Header ---------------------------------------------*/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-header);
+}
+
+header > h1 {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: var(--tamanho-h1);
+    font-family: var(--fonte-padrao);
+}
+
+header > img {
+    width: 8%;
+    padding: 10px;
+    margin: 6px 7px 20px 6px;
+}
+
+/* ----------------------------- Header ---------------------------------------------*/
+
+/* ----------------------------- Main ---------------------------------------------*/
+
+main {
+    padding: 2.25rem;
+    margin: 1.5rem  0.625rem  0.625rem  0.625rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--cor-main);
+    gap: 1.875rem;
+}
+
+section {
+    display: flex;
+    background-color: var(--cor-secao);
+    padding: 2.5rem;
+    border-radius: var(--border-radius);
+}
+
+.band {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 14.5rem;
+    height: 8.5rem;
+}
+
+.band-info > h2 {
+    font-size: var(--tamanho-h2);
+    font-family: var(--fonte-padrao);
+    padding-bottom: 10px;
+}
+
+.band-info > p {
+    font-size: var(--tamanho-p);
+    font-family: var(--fonte-padrao);
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.band-info {
+    flex: 1;
+}
+
+
+.img {
+    width: var(--largura-imagens);
+    height: var(--altura-imagens);
+}
+
+.img1 {
+    width: var(--largura-imagens);
+    height: var(--altura-imagens);
+    object-fit: cover;
+}
+
+/* ----------------------------- Main ---------------------------------------------*/
+
+/* ----------------------------- Aside ---------------------------------------------*/
+aside {
+    padding: 20px;
+    background-color: var(--cor-header);
+    margin: 20px;
+    font-family: var(--fonte-padrao);
+    border-radius: var(--border-radius);
+}
+
+aside > h2 {
+    padding-bottom: var(--padding-padrao);
+}
+
+aside > p {
+    font-size: var(--tamanho-p);
+    padding-bottom: var(--tamanho-p);
+}
+
+/* ----------------------------- Aside ---------------------------------------------*/
+
+
+/* ----------------------------- Footer ---------------------------------------------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-header);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* ----------------------------- Footer ---------------------------------------------*/
